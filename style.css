@@ -54,14 +54,14 @@ footer {
 
 .nummers{
     width: 40px;
+    float: right
 }
 
 
 #driverphoto {
-    width: 500px;
-    float: right
-
-    
+    width: 900px;
+    float: right;
+    border: solid black;
 }
 
 .balk {
@@ -88,7 +88,6 @@ nav ul {
     margin: auto;
     background-color: #df0f0f;
     overflow: hidden;
-    width: 900px;
 }
 
 nav ul li {
