@@ -52,18 +52,21 @@ div ul {
     border: solid rgb(4,14,22);
     width: 150px;
     padding: 5px;
+    font-family: Verdana;
+    font-size: 13px;
 }
 
-.weetjes strong{
-    color: rgb(255,255,255);
-    background-color: rgb(4,14,22);
-}
 .home-tekst {
     width: 750px;
 }
 
 .onderaan {
     font-size: 0.7em;
+}
+
+.nummers-afwijking{
+    width: 25px;
+    float: right;
 }
 
 /* id's */
@@ -86,7 +89,7 @@ div ul {
 }
 
 #ricciardo{
-    width: 350px;
+    width: 400px;
     float: right;
     margin: 20px;
 }
@@ -94,6 +97,31 @@ div ul {
 #breed {
     width: 710px;
 }
+
+#interessant{
+    background-color: rgb(4,14,22);
+    color: white;
+}
+
+#persconferentie {
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#pitlane {
+    width: 230px;
+    float: right;
+    margin-left: 15px;
+}
+
+#pitstop {
+    width: 250px;
+    float: right;
+    margin-left: 15px;
+}
+
 /* a */
 
 a.p {
@@ -108,7 +136,7 @@ a:hover {
 /* tabel */
 
 td {
-    padding: 5px; 
+    padding: 8px; 
     border: solid rgb(4,14,22);
 }
 
